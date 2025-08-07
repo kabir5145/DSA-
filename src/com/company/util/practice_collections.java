@@ -38,7 +38,7 @@ public class practice_collections {
          */
 
         //question 4 : Write a java program to retrieve an element (at a specific index) from a given array list.
-        ArrayList<Integer> num= new ArrayList<>();
+        /*ArrayList<Integer> num= new ArrayList<>();
         num.add(1);
         num.add(12);
         num.add(123);
@@ -49,5 +49,16 @@ public class practice_collections {
         }
         System.out.println("First element is : "+num.get(0));
         System.out.println("Second element is : "+num.get(1));
+         */
+
+        //question 5: Write a java program to update an array element by given element.
+        ArrayList<String > color = new ArrayList<>();
+        color.add("red");
+        color.add("blue");
+        color.add("yellow");
+        color.add("green");
+        System.out.println(color);
+        color.set(2,"Black");
+        System.out.println(color);
     }
 }
