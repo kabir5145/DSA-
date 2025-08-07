@@ -11,5 +11,15 @@ public class practice_collections {
         colors.add("yellow");
         colors.add("green");
         System.out.println(colors);
+
+        //question 2: Write a java program to iterate through all elements in an array list.
+        ArrayList<String>  color = new ArrayList<>();
+        color.add("red");
+        color.add("blue");
+        color.add("yellow");
+        color.add("green");
+      for(String element: color){
+          System.out.println(element);
+      }
     }
 }
