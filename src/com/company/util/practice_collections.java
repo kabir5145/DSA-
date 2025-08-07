@@ -25,7 +25,7 @@ public class practice_collections {
          */
 
         //question 3 : write a java program to insert an element into the array list at the first position
-        ArrayList<String> name = new ArrayList<>();
+        /*ArrayList<String> name = new ArrayList<>();
         name.add("kabir");
         name.add("Batman");
         name.add("Messi");
@@ -35,5 +35,19 @@ public class practice_collections {
         for(String element: name) {
             System.out.println(element);
         }
+         */
+
+        //question 4 : Write a java program to retrieve an element (at a specific index) from a given array list.
+        ArrayList<Integer> num= new ArrayList<>();
+        num.add(1);
+        num.add(12);
+        num.add(123);
+        num.add(1234);
+        num.add(12345);
+        for(Integer element :num) {
+            System.out.println(element);
+        }
+        System.out.println("First element is : "+num.get(0));
+        System.out.println("Second element is : "+num.get(1));
     }
 }
