@@ -52,6 +52,7 @@ public class practice_collections {
          */
 
         //question 5: Write a java program to update an array element by given element.
+        /*
         ArrayList<String > color = new ArrayList<>();
         color.add("red");
         color.add("blue");
@@ -60,5 +61,6 @@ public class practice_collections {
         System.out.println(color);
         color.set(2,"Black");
         System.out.println(color);
+         */
     }
 }
