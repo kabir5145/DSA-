@@ -89,10 +89,19 @@ public class practice_collections {
         num.add(19);
         num.add(20);
         System.out.println(num);
+        /*
         if(num.contains(12)){
             System.out.println("found the number !");
         }else {
             System.out.println("not found the number!");
         }
+         */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Insert a number : ");
+       if(num.contains(sc.nextInt())){
+           System.out.println("yes found the number !");
+       }else {
+           System.out.println("Not found the number!");
+       }
     }
 }
