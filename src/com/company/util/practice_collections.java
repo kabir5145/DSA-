@@ -1,8 +1,6 @@
 package com.company.util;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class practice_collections {
     public static void main(String[] args) {
@@ -108,6 +106,7 @@ public class practice_collections {
          */
 
         //Question 8 : Write a java program to sort a given array list
+        /*
         ArrayList<Integer> num = new ArrayList<>();
         num.add(122);
         num.add(13);
@@ -122,5 +121,26 @@ public class practice_collections {
         System.out.println();
         Collections.sort(num);
         System.out.print("List after sort is : "+num);
+         */
+
+        //Question 9: Write a java program to copy one array list into another
+        LinkedList<Integer> num = new LinkedList<>();
+        num.add(1);
+        num.add(2);
+        num.add(3);
+        num.add(4);
+        num.add(5);
+        num.add(6);
+        System.out.println("The original  first array is : "+num);
+        LinkedList<Integer> num2 = new LinkedList<>();
+        num2.add(11);
+        num2.add(12);
+        num2.add(13);
+        num2.add(14);
+        num2.add(15);
+        num2.add(16);
+        System.out.println("The second array is : "+num2);
+        Collections.copy(num,num2);
+        System.out.println("The new copied array is : "+num);
     }
 }
