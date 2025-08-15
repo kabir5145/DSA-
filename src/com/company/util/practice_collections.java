@@ -1,6 +1,7 @@
 package com.company.util;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class practice_collections {
@@ -78,6 +79,7 @@ public class practice_collections {
          */
 
         //Question 7 : Write a java program to search for an element in an array list
+        /*
         ArrayList<Integer> num = new ArrayList<>();
         num.add(12);
         num.add(13);
@@ -89,13 +91,13 @@ public class practice_collections {
         num.add(19);
         num.add(20);
         System.out.println(num);
-        /*
+
         if(num.contains(12)){
             System.out.println("found the number !");
         }else {
             System.out.println("not found the number!");
         }
-         */
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Insert a number : ");
        if(num.contains(sc.nextInt())){
@@ -103,5 +105,22 @@ public class practice_collections {
        }else {
            System.out.println("Not found the number!");
        }
+         */
+
+        //Question 8 : Write a java program to sort a given array list
+        ArrayList<Integer> num = new ArrayList<>();
+        num.add(122);
+        num.add(13);
+        num.add(14);
+        num.add(15);
+        num.add(16);
+        num.add(17);
+        num.add(18);
+        num.add(19);
+        for (int i : num)
+            System.out.print(i+" ");
+        System.out.println();
+        Collections.sort(num);
+        System.out.print("List after sort is : "+num);
     }
 }
