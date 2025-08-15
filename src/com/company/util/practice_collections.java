@@ -1,6 +1,7 @@
 package com.company.util;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class practice_collections {
     public static void main(String[] args) {
@@ -64,6 +65,7 @@ public class practice_collections {
          */
 
         //question 6: Write a java program to remove the third element from an arraylist
+        /*
         ArrayList<String> n =  new ArrayList<>();
         n.add("kabir");
         n.add("Rashi");
@@ -73,5 +75,24 @@ public class practice_collections {
         System.out.println("Original array is : "+n);
         System.out.println(n.remove(3));
         System.out.println("Now the array is : "+n);
+         */
+
+        //Question 7 : Write a java program to search for an element in an array list
+        ArrayList<Integer> num = new ArrayList<>();
+        num.add(12);
+        num.add(13);
+        num.add(14);
+        num.add(15);
+        num.add(16);
+        num.add(17);
+        num.add(18);
+        num.add(19);
+        num.add(20);
+        System.out.println(num);
+        if(num.contains(12)){
+            System.out.println("found the number !");
+        }else {
+            System.out.println("not found the number!");
+        }
     }
 }
