@@ -62,5 +62,16 @@ public class practice_collections {
         color.set(2,"Black");
         System.out.println(color);
          */
+
+        //question 6: Write a java program to remove the third element from an arraylist
+        ArrayList<String> n =  new ArrayList<>();
+        n.add("kabir");
+        n.add("Rashi");
+        n.add("Rehan");
+        n.add("Robin");
+        n.add("Rishi");
+        System.out.println("Original array is : "+n);
+        System.out.println(n.remove(3));
+        System.out.println("Now the array is : "+n);
     }
 }
