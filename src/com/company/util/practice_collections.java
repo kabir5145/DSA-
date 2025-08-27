@@ -18,20 +18,17 @@ public class practice_collections {
         System.out.println("List of three elements is : "+v);
          */
 
-        //question 13: Compare Two ArrayList
+        //question 14: Swap ArrayList element
         List<Integer> c = new ArrayList<>();
         c.add(1);
         c.add(2);
         c.add(3);
-        System.out.println("The first original list is : "+c);
-        List<Integer> b = new ArrayList<>();
-        b.add(4);
-        b.add(5);
-        b.add(6);
-        System.out.println("The second original list is :"+b);
-        List<Integer> combine = new ArrayList<>();
-        combine.addAll(c);
-        combine.addAll(b);
-        System.out.println("The combined list is : "+combine);
+        c.add(4);
+        c.add(5);
+        c.add(6);
+        System.out.println("The Arraylist before swaping it : "+c);
+
+        Collections.swap(c,0,3);
+        System.out.println("The Arraylist after swaping the number  is : "+c);
     }
 }
