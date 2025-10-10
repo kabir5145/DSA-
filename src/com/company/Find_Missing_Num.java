@@ -9,8 +9,12 @@ public class Find_Missing_Num {
         }
         return sum;
     }
+    public void arrayPrint(){
+        int arr[]={1,3,6,8,2,4,7};
+        System.out.println(find_missing_num(arr));
+    }
     public static void main(String[] args) {
         Find_Missing_Num f = new Find_Missing_Num();
-        f.find_missing_num(new int[]{2,4,1,8,6,3,7});
+        f.arrayPrint();
     }
 }
