@@ -3,7 +3,7 @@ package com.company;
 
 public class Insert_Element_At_Beginning_Sl {
 
-    private ListNode head;
+    ListNode head;
 
     private static class ListNode {
         private int data; // Can be a generic type
