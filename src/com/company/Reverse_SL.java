@@ -67,7 +67,7 @@ public class Reverse_SL {
         //Searching an element in singly linked list
         System.out.println("Is there 1 in the list : "+r.searchElement(1));
 
-        r = r.reverseSL();
+//        r = r.reverseSL();
         r.print();
     }
 }
